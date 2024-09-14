@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+:root{
+    --color_bg: #060606;
+    --color_header: #16263f;
+    --color_text: #b0d8e5;
+    --color_04: #7da1d9;
+    --color_05: #466492;
+}
+
+body{
+    background-color: var(--color_bg);
+}
+
+header{
+    background-color: var(--color_header);
+    color: var(--color_04);
+    padding: 15vh;
+}
+
+header h1{
+    font-size: 4em;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    color: var(--color_text);
+}
+
+.topico{
+    margin-top: 20px;
+}
+
+.topico p{
+    line-height: 1.5;
+    font-size: larger;
+}
+
+.topico h2{
+    border-bottom: 2px solid var(--color_04);
+    font-size: xx-large;
+    font-style: italic;
+}
+
+.linguagem{
+    margin: 10px 0;
+    border-bottom: 2px solid var(--color_04);
+    font-size: xx-large;
+    width: 30%;
+}
+
+.fortran{
+    display: flex;
+    margin: 5px 0;
+
+}
+
+.fortran figure{
+    width: 15%;
+}
+
+.fortran figure img{
+    width: 100%;
+}
+
+.fortran div{
+    font-size: xx-large;
+    padding: 10px 30px;
+}
+
+.fortran div p{
+    line-height: 1.4;
+    text-align: justify;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: var(--color_header);
+    color: var(--color_text);
+    padding: 5vh;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul li{
+    font-size: large;
+}
+
+footer ul li a{
+    color: var(--color_04);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    color: var(--color_05);
+    transition: 0.3s;
+}
