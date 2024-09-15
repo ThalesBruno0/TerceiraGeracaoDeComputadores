@@ -4,6 +4,15 @@
 	font-weight: 10;
 	font-family: sans-serif;
 }
+
+:root{
+    --color_bg: #060606;
+    --color_header: #16263f;
+    --color_text: #b0d8e5;
+    --color_04: #7da1d9;
+    --color_05: #466492;
+}
+
 header {
 	background-color: rgb(18, 18, 61);
 	color: white;
@@ -126,7 +135,6 @@ main {
 }
 
 footer {
-	margin-top: 20px;
 	background-color: var(--color_header);
 	color: var(--color_text);
 	padding: 5vh;
