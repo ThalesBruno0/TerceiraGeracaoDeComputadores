@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    font-weight: 10;
+}
+
+:root{
+    --color_bg: #060606;
+    --color_header: #16263f;
+    --color_text: #b0d8e5;
+    --color_04: #7da1d9;
+    --color_05: #466492;
+}
+
+body {
+    
+    background-color:rgb(18, 18, 61);
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    background-image: url(../img/J4o.gif);
+}
+
+header {
+    background-color: #0f0063;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border:solid #b0d8e5 3px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+section {
+    background-color: #0f0063;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    border:solid #b0d8e5 3px;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 30px;
+}
+
+
+.vietna{
+    width: 500px;
+    display: flex;
+    margin-left: 17%;
+    border-radius: 40px;
+    border:solid rgb(18, 18, 61) 13px;
+
+}
+
+footer{
+    margin-top: 20px;
+    background-color: var(--color_header);
+    color: var(--color_text);
+    padding: 5vh;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul li{
+    font-size: large;
+}
+
+footer ul li a{
+    color: var(--color_04);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    color: var(--color_05);
+    transition: 0.3s;
+}
+
