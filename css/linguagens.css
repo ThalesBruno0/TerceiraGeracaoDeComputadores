@@ -16,6 +16,16 @@ body{
     background-color: var(--color_bg);
 }
 
+nav {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    height: 8vh;
+    font-size: 40px;
+    background-image: url(../img/J4o.gif);
+}
+
+
 header{
     background-color: var(--color_header);
     color: var(--color_04);
@@ -62,11 +72,13 @@ main{
 }
 
 .fortran figure{
-    width: 15%;
+    width: 25%;
 }
 
 .fortran figure img{
     width: 100%;
+    border-radius: 50%;
+
 }
 
 .fortran div{

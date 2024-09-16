@@ -1,8 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
 :root {
@@ -13,8 +12,8 @@
 	--color_05: #466492;
 }
 
-body {
-	background-color: var(--color_bg);
+body{
+    background-color: var(--color_bg);
 }
 
 nav {
@@ -26,40 +25,37 @@ nav {
     background-image: url(../img/J4o.gif);
 }
 
-header {
-	background-color: var(--color_header);
-	color: var(--color_04);
-	padding: 15vh;
+main{
+    width: 80%;
+    margin: 0 auto;
 }
 
-header h1 {
-	font-size: 4em;
-	text-align: center;
+.integrantes{
+    text-align: center;
+    font-size: xx-large;
+    color: var(--color_04);
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
 }
 
-main {
-	width: 80%;
-	margin: 0 auto;
-	color: var(--color_text);
+.integrantes h2{
+    border-bottom: 2px solid var(--color_05);
+
 }
 
-main p {
-	font-size: xx-large;
+.container_nomes{
+    height: 65vh;
 }
 
-main figure {
-	font-size: larger;
-}
-.topico {
-	margin-top: 20px;
-	border-bottom: 2px solid var(--color_04);
-	font-size: xx-large;
-	font-style: italic;
-	color: var(--color_04);
+.nomes{
+    text-align: center;
+    line-height: 2.7;
+    font-size: xx-large;
+    color: var(--color_text);
 }
 
 footer {
-	margin-top: 20px;
 	background-color: var(--color_header);
 	color: var(--color_text);
 	padding: 5vh;
