@@ -29,7 +29,7 @@ nav {
 header {
 	background-color: var(--color_header);
 	color: var(--color_04);
-	padding: 15vh;
+	padding: 40px;
 }
 
 header h1 {

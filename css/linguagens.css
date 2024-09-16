@@ -48,8 +48,9 @@ main{
 }
 
 .topico p{
-    line-height: 1.5;
-    font-size: larger;
+    line-height: 1.2;
+    font-size: x-large;
+    text-align: justify;
 }
 
 .topico h2{
@@ -65,28 +66,28 @@ main{
     width: 30%;
 }
 
-.fortran{
+.container_linguagem{
     display: flex;
     margin: 5px 0;
 
 }
 
-.fortran figure{
+.container_linguagem figure{
     width: 25%;
 }
 
-.fortran figure img{
+.container_linguagem figure img{
     width: 100%;
     border-radius: 50%;
 
 }
 
-.fortran div{
+.container_linguagem div{
     font-size: xx-large;
     padding: 10px 30px;
 }
 
-.fortran div p{
+.container_linguagem div p{
     line-height: 1.4;
     text-align: justify;
 }
@@ -95,7 +96,7 @@ footer{
     margin-top: 20px;
     background-color: var(--color_header);
     color: var(--color_text);
-    padding: 5vh;
+	padding: 40px;
 }
 
 footer ul{

@@ -45,12 +45,12 @@ main{
 }
 
 .container_nomes{
-    height: 65vh;
+    height: 70vh;
 }
 
 .nomes{
     text-align: center;
-    line-height: 2.7;
+    line-height: 1.7;
     font-size: xx-large;
     color: var(--color_text);
 }
@@ -58,7 +58,7 @@ main{
 footer {
 	background-color: var(--color_header);
 	color: var(--color_text);
-	padding: 5vh;
+	padding: 40px;
 }
 
 footer ul {

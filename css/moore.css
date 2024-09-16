@@ -146,7 +146,7 @@ main {
 footer {
 	background-color: var(--color_header);
 	color: var(--color_text);
-	padding: 5vh;
+	padding: 40px;
 }
 
 footer ul {
