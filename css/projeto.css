@@ -10,7 +10,6 @@
     --color_04: #7da1d9;
     --color_05: #466492;
 }
-
 body {
     
     background-color:rgb(18, 18, 61);
@@ -69,40 +68,39 @@ ul {
     font-size: 30px;
 }
 
-
 .vietna{
     width: 500px;
     display: flex;
     margin-left: 17%;
-    border-radius: 40px;
+    border-radius: 100px;
     border:solid rgb(18, 18, 61) 13px;
 
 }
 
-footer{
-    background-color: var(--color_header);
-    color: var(--color_text);
+footer {
+	background-color: var(--color_header);
+	color: var(--color_text);
 	padding: 40px;
 }
 
-footer ul{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
 }
 
-footer ul li{
-    font-size: large;
+footer ul li {
+	font-size: large;
 }
 
-footer ul li a{
-    color: var(--color_04);
-    text-decoration: none;
-    transition: 0.3s;
+footer ul li a {
+	color: var(--color_04);
+	text-decoration: none;
+	transition: 0.3s;
 }
 
-footer ul li a:hover{
-    color: var(--color_05);
-    transition: 0.3s;
+footer ul li a:hover {
+	color: var(--color_05);
+	transition: 0.3s;
 }
 

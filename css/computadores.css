@@ -1,0 +1,171 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+:root{
+--color_01:rgb(0, 0, 0);
+--color_02:rgb(255, 255, 255);
+--color_03:rgb(233, 14, 14);
+--color_04:rgb(35, 13, 131);
+--color_05: rgb(241, 203, 76);
+--color_06:#030329;
+--color_bg: #060606;
+--color_header: #16263f;
+--color_text: #b0d8e5;
+--color_07: #7da1d9;
+--color_08: #466492;
+
+}
+nav {
+    color: #ffffff;
+    text-align: center;
+    padding: 30px;
+    height: 8vh;
+    font-size: 40px;
+    background-image: url(../img/J4o.gif);
+}
+.container-header{
+    height: 70vh;
+    background-image:  url("../img/cabecalho-de-computador-retro_622214-5592.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--color_02);
+    display:flex;
+    align-items: center;
+}
+.container-title{
+margin-left: 5vw;
+}
+.title_1{
+    color: var(--color_04);
+    text-shadow: 2px 1px 1px var(--color_05);
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 0.8;
+}
+.title_2{
+    color: var(--color_04);
+    text-shadow: 2px 1px 1px var(--color_05);
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 0.8;
+}
+.main{
+    background-color: var(--color_06);
+}
+.container_games{
+    background-color:var(--color_06);
+    color: var(--color_02);
+    margin: 0 auto;
+    width: 88%;
+    padding: 60px 0;
+}
+.container_games h2{
+    font-size: 70px;
+font-weight: 100;
+color: var(--color_02);
+margin-bottom: 30px;
+}
+.container_games p{
+    font-size:18 ;
+    line-height: 1.4;
+}
+.container_card{
+ 
+    display: flex;
+    justify-content: space-between;
+}
+.card_jogo{
+    width: 23%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#card_01{
+    background-image: url(../img/IBM\ 360.jpg);
+    color: var(--color_01);
+    border-radius: 20px;
+   
+}#card_02{
+    background-image: url(../img/PDP-8_\(1\).jpg);
+    color: var(--color_02);
+    border-radius: 20px;
+   
+}
+#card_03{
+    background-image: url(../img/CDC_6600.jc.jpg);
+    color:var(--color_01);
+    border-radius: 20px;
+   
+}
+#card_04{
+    background-image: url(../img/CDC\ 7600.jpg);
+    color: var(--color_02);
+    border-radius: 20px;
+   
+}
+main .container_games h4{
+    font-size: 35px;
+    padding-top: 40px;
+}
+main .container_games p{
+    font-size: 25px;
+}
+#card_05{
+    background-image: url(../img/tapebackup-640x369.jpg);
+    color:var(--color_02);
+    border-radius: 20px;
+   
+}
+#card_06{
+    background-image: url(../img/dsc_9013.jpg);
+    color:var(--color_02);
+    border-radius: 20px;
+   
+}
+.container_card1{
+    display: flex;
+    justify-content: space-around;
+  padding-top: 20px;
+  
+}
+.h2_M{
+    font-size: 35px;
+font-weight: 40px;
+}
+
+footer{
+    background-color: var(--color_header);
+    color: var(--color_text);
+	padding: 40px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer ul li{
+    font-size: large;
+}
+
+footer ul li a{
+    color: var(--color_07);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer ul li a:hover{
+    color: var(--color_08);
+    transition: 0.3s;
+}
+
